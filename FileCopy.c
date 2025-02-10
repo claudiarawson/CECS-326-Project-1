@@ -13,6 +13,8 @@
 
 int main(int argc, char *argv[])
 {
-   // Your code is here
-               
+   char* sourceFile = argv[0];
+   char*destinationFile = argv[1];
+
+   printf("Hello World");
 }
