@@ -11,10 +11,18 @@
 #define BUFFER_SIZE 25
 #define STRING_SIZE 25
 
-int main(int argc, char *argv[])
-{
+void read_func(const char *file) {
+   FILE *stream=fopen(file,"r");
+   char c;
+   while((c=fgetc(stream)) != EOF) {
+      putchar(c);
+   }
+   fclose(stream);
+   printf("hello world");
+}
+
+int main(int argc, char *argv[]) {
    char* sourceFile = argv[0];
    char*destinationFile = argv[1];
-
-   printf("Hello World");
+   
 }
