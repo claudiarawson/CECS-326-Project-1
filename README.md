@@ -42,7 +42,7 @@ OR (if output file name was substituted)
 -Command: make clean OUTPUT=y
     y = yourOutputFile.txt
 
-    For more tests, you can remove the output file using "make clean"
+    For more tests, you can remove the output files using "make clean"
         If using an output file with a unique name, add OUTPUT={yourOutputFile.txt}
             Ex. Command: make clean OUTPUT=exampleCopy.txt
-    This should clean up your director from previous test outputs.
+    This should clean up your directory from previous test outputs.
