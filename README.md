@@ -1,8 +1,7 @@
-# CECS-326
-# Project 1
-# Group: Reichen Brown (ID: 029657509) & Claudia Rawson (ID: 030782685)
+# CECS-326 Project 1
+Group: Reichen Brown (ID: 029657509) & Claudia Rawson (ID: 030782685)
 
---------------- SUMMARY ---------------
+## SUMMARY
 The project files contain a Makefile that will compile the code and provide a run function.
 
 To begin, the director should contain the following files:
@@ -20,15 +19,15 @@ Commands provided by the Makefile:
     2. make run
     3. make clean
 
---------------- HOW TO RUN ---------------
--Command: make
+## HOW TO RUN
+**Command: make**
 
     To compile the code, use the "make" command in the terminal by typing: make
         This will generate the executable file, filecopy.
 
--Command: make run
-OR (If substituting input AND/OR output file names)
--Command: make run INPUT=x OUTPUT=y
+**Command: make run**\
+OR (If substituting input AND/OR output file names)\
+**Command: make run INPUT=x OUTPUT=y**\
     x = yourInputFile.txt | y = yourOutputFile.txt
 
     Use the "run" command in the terminal by typing: make run
@@ -38,9 +37,9 @@ OR (If substituting input AND/OR output file names)
             Ex. Command: make run OUTPUT=output.txt
     This should output a copy of your input file, default OUTPUT=copy.txt
 
--Command: make clean
-OR (if output file name was substituted)
--Command: make clean OUTPUT=y
+**Command: make clean**\
+OR (if output file name was substituted)\
+**Command: make clean OUTPUT=y**\
     y = yourOutputFile.txt
 
     For more tests, you can remove the output files using "make clean"
