@@ -1,5 +1,3 @@
-//#define _POSIX_C_SOURCE 200809L  // Makefile necessity for CFLAGS POSIX compatibility
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>

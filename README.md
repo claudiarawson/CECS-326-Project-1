@@ -1,4 +1,5 @@
 # CECS-326
+# Project 1
 # Group: Reichen Brown (ID: 029657509) & Claudia Rawson (ID: 030782685)
 
 --------------- SUMMARY ---------------
