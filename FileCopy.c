@@ -3,7 +3,6 @@
 #include <unistd.h>
 #include <sys/wait.h>
 #define BUFFER_SIZE 25
-#define STRING_SIZE 25
 
 // Function that reads an input file
 void read_func(int fd, const char *destinationFile) {
