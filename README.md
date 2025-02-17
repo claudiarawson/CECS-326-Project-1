@@ -1,5 +1,5 @@
 # CECS-326
-# Group: Reichen Brown (ID: 029657509) & Claudia Rawson (ID: idk dis bruh)
+# Group: Reichen Brown (ID: 029657509) & Claudia Rawson (ID: 030782685)
 
 --------------- SUMMARY ---------------
 The project files contain a Makefile that will compile the code and provide a run function.
